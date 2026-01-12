@@ -1,1 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
 
+.tiedot {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    min-height: 100vh;
+}
+
+.vasen {
+    background-color: #99B0C9;
+    padding: 30px;
+}
+
+.vasen h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.left section h2 {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    padding-bottom: 6px;
+    margin: 25px 0 15px;
+}
+
+.oikea {
+    padding: 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #223B55;
+}
+
+header p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    color: #2E557A;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    border-bottom: 2px solid #223B55;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: #223B55;
+}
+
+.osio {
+    margin-bottom: 15px;
+}
+
+.osio h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.osio span {
+    font-size: 0.9rem;
+    color: #2E557A;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.kuva {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #223B55;
+}
+
+
+@media (max-width: 768px) {
+
+}
