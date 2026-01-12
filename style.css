@@ -90,6 +90,37 @@ ul {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
+    .tiedot {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 20px;
+    }
 
+    .vasen, .oikea {
+        padding: 15px;
+    }
+
+    .kuva {
+        width: 120px;
+        height: 150px;
+        margin-bottom: 10px;
+        border-width: 3px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    .osio h3 {
+        font-size: 1.1rem;
+    }
+
+    .osio span {
+        font-size: 1rem;
+    }
 }
